@@ -1,0 +1,42 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[utf8x]{inputenc}
+\usepackage[margin=2.5cm]{geometry}
+\setlength\parindent{0pt}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+
+\pagestyle{fancy}
+
+\lhead{Jørgen Wilhelmsen}
+\chead{Øving 1}
+\rhead{Matematikk 2}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%\renewcommand\thesection{}
+\makeatletter
+% we use \prefix@<level> only if it is defined
+\renewcommand{\@seccntformat}[1]{%
+  \ifcsname prefix@#1\endcsname
+    \csname prefix@#1\endcsname
+  \else
+    \csname the#1\endcsname\quad
+  \fi}
+% define \prefix@section
+\newcommand\prefix@section{}
+\makeatother
+
+\numberwithin{equation}{section}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\date{}
+\begin{document}
+\title{Matematikk 2 - Øving 1}
+\author{Jørgen Wilhelmsen}
+
+\maketitle
+\thispagestyle{fancy}
+
+hei! 
+\end{document}

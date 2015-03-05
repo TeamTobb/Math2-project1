@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.24)  5 MAR 2015 14:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.24)  5 MAR 2015 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -149,7 +149,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-) (./Project 1.aux)
+) (./Project 1.aux (./sections/Exercise1/Exercise1.aux))
 \openout1 = `"Project 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -164,7 +164,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
- (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -242,23 +243,29 @@ Package gensymb Warning: Not defining \micro.
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Project 1.aux) ) 
+\openout2 = `./sections/Exercise1/Exercise1.aux'.
+
+
+(./sections/Exercise1/Exercise1.tex) [2
+
+] (./Project 1.aux
+(./sections/Exercise1/Exercise1.aux)) ) 
 Here is how much of TeX's memory you used:
- 2497 strings out of 493117
- 35126 string characters out of 6135432
- 105959 words of memory out of 5000000
- 5937 multiletter control sequences out of 15000+600000
+ 2506 strings out of 493117
+ 35393 string characters out of 6135432
+ 106215 words of memory out of 5000000
+ 5938 multiletter control sequences out of 15000+600000
  4094 words of font info for 16 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,45p,349b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb>
-Output written on "Project 1.pdf" (1 page, 26261 bytes).
+</usr/local/texlive/2014/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr7.pfb>
+Output written on "Project 1.pdf" (2 pages, 27796 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 23 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

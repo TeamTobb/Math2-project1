@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.5)  5 MAR 2015 16:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.9)  11 MAR 2015 10:16
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Project 1.tex"
+**"Project 1.tex" -recorder
 (./Project 1.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
@@ -146,14 +145,51 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \f@ncyO@erf=\skip52
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
-))
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-) (./Project 1.aux (./sections/Exercise1/Exercise1.aux) (./sections/Exercise2/E
-xercise2.aux)
-(./sections/Exercise3/Exercise3.aux) (./sections/Exercise4/Exercise4.aux)
-(./sections/Exercise5/Exercise5.aux) (./sections/Exercise6/Exercise6.aux)
-(./sections/Proof1/Proof1.aux) (./sections/Proof2/Proof2.aux))
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count101
+\lst@gtempboxa=\box28
+\lst@token=\toks25
+\lst@length=\count102
+\lst@currlwidth=\dimen114
+\lst@column=\count103
+\lst@pos=\count104
+\lst@lostspace=\dimen115
+\lst@width=\dimen116
+\lst@newlines=\count105
+\lst@lineno=\count106
+\lst@maxwidth=\dimen117
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count107
+\lst@skipnumbers=\count108
+\lst@framebox=\box29
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+))
+(./Project 1.aux (./sections/Exercise1/Exercise1.aux)
+(./sections/Exercise2/Exercise2.aux) (./sections/Exercise3/Exercise3.aux)
+(./sections/Exercise4/Exercise4.aux) (./sections/Exercise5/Exercise5.aux)
+(./sections/Exercise6/Exercise6.aux) (./sections/Proof1/Proof1.aux)
+(./sections/Proof2/Proof2.aux))
 \openout1 = `"Project 1.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -174,17 +210,17 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen114
-\scratchbox=\box28
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen115
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count109
+\scratchdimen=\dimen118
+\scratchbox=\box30
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen119
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks27
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -244,6 +280,7 @@ Package gensymb Info: Using \Omega for \ohm on input line 4.
 
 Package gensymb Warning: Not defining \micro.
 
+\c@lstlisting=\count115
 [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -295,31 +332,27 @@ No file ./sections/Proof1/Proof1.tex.
 (./sections/Proof2/Proof2.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-Overfull \hbox (58.14462pt too wide) in paragraph at lines 13--13
-[] 
- []
-
-) [8
+)) [8
 
 
 
 
 ] [9
 
-] (./Project 1.aux (./sections/Exercise1/Exercise1.aux)
+]
+(./Project 1.aux (./sections/Exercise1/Exercise1.aux)
 (./sections/Exercise2/Exercise2.aux) (./sections/Exercise3/Exercise3.aux)
 (./sections/Exercise4/Exercise4.aux) (./sections/Exercise5/Exercise5.aux)
 (./sections/Exercise6/Exercise6.aux) (./sections/Proof1/Proof1.aux)
 (./sections/Proof2/Proof2.aux)) ) 
 Here is how much of TeX's memory you used:
- 3067 strings out of 493117
- 42310 string characters out of 6135434
- 109014 words of memory out of 5000000
- 6440 multiletter control sequences out of 15000+600000
- 4699 words of font info for 18 fonts, out of 8000000 for 9000
+ 5327 strings out of 493117
+ 71099 string characters out of 6135434
+ 162087 words of memory out of 5000000
+ 8678 multiletter control sequences out of 15000+600000
+ 5165 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,10n,45p,349b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,45p,359b,1614s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/
@@ -327,11 +360,12 @@ public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb>
-Output written on "Project 1.pdf" (9 pages, 68526 bytes).
+msfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt9.pfb>
+Output written on "Project 1.pdf" (9 pages, 79944 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

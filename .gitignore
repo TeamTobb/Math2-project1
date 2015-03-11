@@ -2,3 +2,13 @@
 *.log
 
 *.fdb_latexmk
+
+*.log
+
+*.log
+
+*.pdf
+
+*.gz
+
+*.aux

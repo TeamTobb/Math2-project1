@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.23)  11 MAR 2015 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.23)  11 MAR 2015 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -294,30 +294,48 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 (./sections/Exercise2/Exercise2.tex) [11] (./sections/Exercise3/Exercise3.tex)
 [12] (./sections/Exercise4/Exercise4.tex) [13]
 (./sections/Exercise5/Exercise5.tex) [14] (./sections/Exercise6/Exercise6.tex)
-[15] (./sections/Proof2/Proof2.tex) [16] (./sections/Discussion/Discussion.tex)
-[17] (./sections/Conclusion/Conclusion.tex) [18] [19]
-(./sections/Appendix/Appendix.tex) [20] (./Project 1.aux) ) 
+[15] (./sections/Proof1/Proof1.tex
+Overfull \hbox (50.24637pt too wide) in paragraph at lines 15--15
+[] 
+ []
+
+
+Overfull \hbox (18.39035pt too wide) in paragraph at lines 41--41
+[] 
+ []
+
+[16]
+Overfull \hbox (49.26033pt too wide) in paragraph at lines 47--47
+[] 
+ []
+
+) (./sections/Proof2/Proof2.tex) [17] (./sections/Discussion/Discussion.tex)
+[18] (./sections/Conclusion/Conclusion.tex) [19] [20]
+(./sections/Appendix/Appendix.tex) [21] (./Project 1.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5607 strings out of 493117
- 74201 string characters out of 6135432
- 162087 words of memory out of 5000000
- 8945 multiletter control sequences out of 15000+600000
+ 5612 strings out of 493117
+ 74297 string characters out of 6135432
+ 165087 words of memory out of 5000000
+ 8946 multiletter control sequences out of 15000+600000
  5770 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,10n,45p,1027b,1616s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "Project 1.pdf" (20 pages, 102515 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on "Project 1.pdf" (21 pages, 107538 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

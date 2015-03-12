@@ -29,6 +29,15 @@ Videre skal vi bruke Euler-Bernoulli likningen på et stupebrett. Et stupebrett 
 \end{align}
 Men, skal vi bruke de tidligere definerte funksjonene får vi et problem. Vi ser at hvis vi har lyst til å finne den vertikale forskyvningen i det første punktet etter starten, altså $x_1$, blir dette umulig. Som sagt tidligere er $x_1=x+h$, og setter vi dette inn i formelen vi tidligere har definert for den fjerdederiverte får vi: 
 
+\begin{align}
+	y''''(x)&\approx \frac{y((x+h)-2h)-4y((x+h)-h)+6y(x+h)-4y((x+h)+h)+y((x+h)+2h)}{h^4}\nonumber
+\end{align}
+Bruker notasjonen $y_i=y(x_i)$, hvor $x_i$ er som før: 
+
+\begin{align}
+    y_{-1}-4y_0+6y_1-4y_2+y_3&=\frac{h^4}{EI}f(x_1)
+\end{align}
+
 
 Følgende kommer et bevis på at den fjerdederiverte (likning 2.28) kan approksimeres ved: 
 
@@ -47,6 +56,7 @@ Først setter vi opp taylor-rekker for punktene $x+2h$, $x-2h$, $x+h$, $x-h$:
 Deretter legger vi først sammen $f(x+2h)$ og $f(x-2h)$: 
 
 \begin{multline}
+    \\
     f(x+2h)+f(x-2h)= \\
     f(x)+2hf'(x)+2h^2f''(x)+\frac{(4h)^3}{3!}f^3(x)+\frac{(2h)^4}{4!}f^{4}(x)+\frac{(2h)^5}{5!}f^{(5)}(x)+h^6 \\
     + \\

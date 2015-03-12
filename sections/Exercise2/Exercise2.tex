@@ -31,20 +31,6 @@ x = (1:10)/5;
 plot(x, tall1, x, tall2); 
 \end{lstlisting}
 
-\begin{lstlisting}[caption={konstantkrefter.m}]
-function [B] = konstantkrefter(n)
-%lager høyresiden av matriseligningen. (h^4/EI) * f(x) 
-%deler opp bjelken i n lengder med lengde h 
-h = 2 / n;        
-%regner ut kraften f(x) 
-kraft = -9.81*480*0.3*0.03; 
-%definerer E og I som gitt i oppgaven
-E = 1.3*10.^(10); 
-I = (0.3*0.03.^3)/12; 
-%lager en n høy matrise, bredde 1, av enere, som ganges med kraft og h^4/EI.
-B = ones(n, 1) * h^4/(E*I) * kraft;
-\end{lstlisting}
-
 \vspace{3mm}
 
 % \includegraphics[scale=0.35]{errorplot2}

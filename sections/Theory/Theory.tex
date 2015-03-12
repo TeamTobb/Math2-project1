@@ -30,15 +30,45 @@ Videre skal vi bruke Euler-Bernoulli likningen på et stupebrett. Et stupebrett 
 Men, skal vi bruke de tidligere definerte funksjonene får vi et problem. Vi ser at hvis vi har lyst til å finne den vertikale forskyvningen i det første punktet etter starten, altså $x_1$, blir dette umulig. Som sagt tidligere er $x_1=x+h$, og setter vi dette inn i formelen vi tidligere har definert for den fjerdederiverte får vi: 
 
 \begin{align}
-	y''''(x)&\approx \frac{y((x+h)-2h)-4y((x+h)-h)+6y(x+h)-4y((x+h)+h)+y((x+h)+2h)}{h^4}\nonumber
+	y''''(x)&\approx \frac{y((x+h)-2h)-4y((x+h)-h)+6y(x+h)-4y((x+h)+h)+y((x+h)+2h)}{h^4}\nonumber \\
+	y''''(x)&\approx \frac{y(x-h)-4y(x)+6y(x+2h)-4y(x+2h)+y(x+3h)}{h^4}
 \end{align}
-Bruker notasjonen $y_i=y(x_i)$, hvor $x_i$ er som før: 
+Bruker notasjonen $y_i=y(x_i)$, hvor $x_i$ er som før, får vi at: 
 
 \begin{align}
     y_{-1}-4y_0+6y_1-4y_2+y_3&=\frac{h^4}{EI}f(x_1)
 \end{align}
+Det er her vi har et problem. $y_{-1}$ er ikke definert, og derfor trenger vi et nytt uttrykk for $y''''(x)$ som gjelder bare når $y(x_0)=y'(x_0)=0$. Dette uttrykket er som følger (bevis kommer senere) : 
 
+\begin{align}
+    y'''(x_1) &\approx \frac{16y(x_1)-9y(x_1+h)+\frac{8}{3}y(x_1+2h)-\frac{1}{4}y(x_1+3h)}{h^4}
+\end{align}
 
+Vi har altså et generelt uttrykk for $y''''(x)$, med et unntak for $y(x_1)$. Dette er, som sagt før: 
+\begin{align}
+     y''''(x)& \approx \frac{y(x-2h)-4y(x-h)+6y(x)-4y(x+h)+y(x+2h)}{h^4}
+ \end{align} 
+ Som vi ser av dette uttrykket bruker det punktene $x+h$ og $x+2h$. Vi har altså litt av det samme problemet som vi hadde for $x_1$: På slutten av planken, ved $x=L$, vil uttrykket inneholde punktene $L+h$ og $L+2h$. Vi har altså 2 punkter som er lengre enn brettets lengde, og derfor trenger vi nye uttrykk for $y''''(x_{n-1})$ og $y''''(x_n)$. Disse er som følger (skal ikke bevises, antas som gyldige): 
+\begin{align}
+    y''''(x_{n-1})&\approx \frac{-28y_n+72y_{n-1}-60y_{n-2}+16y_{n-3}}{17h^4} \\
+    y''''(x_n)&\approx \frac{72y_n-156y_{n-1}+96y_{n-2}-12y_{n-3}}{17h^4}
+\end{align}
+
+Vi har nå gyldige uttrykk for hele plankens lengde. I bokas likning/figur 2.34 er matrisen som avbildet i figur \ref{fig:EBMatrix} 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{sections/Theory/EBMatrix}
+    % \includegraphics[width=0.8\textwidth]{errorplot2}
+    \caption{Matrisen 2.34 fra boken}
+    \label{fig:EBMatrix}
+\end{figure}
+Tallene i denne matrisen stemmer godt med likningene vi har funnet. Likningen for $x_1$ hadde koeffisientene 16, -9, $\frac{8}{3}$ og $-\frac{1}{4}$, og dette stemmer overens med første linje i matrisen. Resten av matrisen, frem til de 2 siste leddene, skulle ha koeffisientene 1, -4, 6, -4 og 1. Linje 2, altså $x_2$, har koeffisientene -4, 6, -4 og 1. Dette er fordi det generelle uttrykket er 
+
+\begin{align}
+    y''''(x)& \approx \frac{y(x-2h)-4y(x-h)+6y(x)-4y(x+h)+y(x+2h)}{h^4} \nonumber
+\end{align}
+og i $x=x+2h$ er $y((x+2h)-2h)=y(x)=0$. De 2 siste linjene i matrisen stemmer overens med uttrykkene vi fant for $y''''(x_{n-1})$ og $y''''(x_n)$. 
+\\ \\
 Følgende kommer et bevis på at den fjerdederiverte (likning 2.28) kan approksimeres ved: 
 
 \begin{align}

@@ -7,7 +7,7 @@
 
 %oppgavetekst
 
-Add a sinusoidal pile to the beam. This means adding a function of form $s(x)=-pg\sin(\frac{\pi}{L})$ to the force term $f(x)$. Prove that the solution
+Add a sinusoidal pile to the beam. This means adding a function of form $s(x)=-pg\sin(\frac{\pi}{L}x)$ to the force term $f(x)$. Prove that the solution
 
 \begin{align}
 y(x) = \frac{f}{{24EI}}{x^2}({x^2} - 4Lx + 6{L^2}) - \frac{{pgL}}{{EI\pi }}\left( {\frac{{{L^3}}}{{{\pi ^3}}}\sin \frac{\pi }{L} - \frac{{{x^3}}}{6} + \frac{L}{2}{x^2} - \frac{{{L^2}}}{{{\pi ^2}}}x} \right)
@@ -20,6 +20,7 @@ satisfies the Euler–Bernoulli beam equation and the clamped-free boundary cond
 
 Skal bevise at: 
 \begin{align}
+\label{ex4}
 y(x) &= \frac{f}{{24EI}}{x^2}({x^2} - 4Lx + 6{L^2}) - \frac{{pgL}}{{EI\pi }}\left( {\frac{{{L^3}}}{{{\pi ^3}}}\sin \frac{\pi }{L}x - \frac{{{x^3}}}{6} + \frac{L}{2}{x^2} - \frac{{{L^2}}}{{{\pi ^2}}}x} \right)\nonumber\\ 
 EIy(x) &= \frac{f}{{24}}{x^2}({x^2} - 4Lx + 6{L^2}) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L^3}}}{{{\pi ^3}}}\sin \frac{\pi }{L}x - \frac{{{x^3}}}{6} + \frac{L}{2}{x^2} - \frac{{{L^2}}}{{{\pi ^2}}}x} \right)\nonumber\\
 %Ganger inn X^2 
@@ -39,6 +40,7 @@ EIy''''(x) &= \frac{f24}{24} - {pg} \cdot{\sin (\frac{\pi }{L}x) } \nonumber\\
 EIy''''(x) &= f - {pg} \cdot{\sin (\frac{\pi }{L}x) } \nonumber\\
 \end{align}
 
+Vi ser ut ifra resultatet i bevis \ref{ex4} at ligningen er ekvivalent med $s(x)$. 
 
 
 % remove after

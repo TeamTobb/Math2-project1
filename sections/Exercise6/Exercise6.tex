@@ -9,8 +9,7 @@ Now remove the sinusoidal load and add a 70 kg diver to the beam, balancing on t
 \vspace{5mm}
 Løsning
 
-Oppgave6regning.m:
-\begin{lstlisting}
+\begin{lstlisting}[caption={Oppgave6regning.m}]
 function [B] = Oppgave6Regning(n)
 %deler først opp bjelken i n lengder med lengde h 
 h = 2 / n;        
@@ -53,9 +52,7 @@ B=B*h^4/(E*I);
 
 Vi bruker denne koden til å få den vertikale forskyvningen på slutten av brettet, og lager en graf av brettets vertikale forskyvning:\\
 
-Oppgave6.m: 
-
-\begin{lstlisting}
+\begin{lstlisting}[caption={Oppgave6.m}]
 %Regner matrisen A med alle vertikale forskyvninger langs stupebrettet. Den
 %optimale n funnet i forrige oppgave er 1280.
 A=Oppgave6Regning(1280); 

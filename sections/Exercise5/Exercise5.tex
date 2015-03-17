@@ -21,7 +21,6 @@ minstTall = 100;
 for(eksp=1:11)
     n=10*(2.^eksp);
     h(eksp) = 2 / n;
-    %tall1 = konstantkrefter2(n);
     tall1 = lagmatrise(n)\konstantkrefter2(n);
     tall2=korrektutregning2(n); 
     tall3 = tall1(n)-tall2(n); 

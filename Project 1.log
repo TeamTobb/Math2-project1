@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.5)  17 MAR 2015 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.3.5)  18 MAR 2015 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -299,68 +299,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-
-Overfull \hbox (2.33405pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/10 programmer som reg-ner ut den ver-tikale forskyvnin-gen langs p
-lanken, p^^Wa forskjel-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+)
+Underfull \hbox (badness 10000) in paragraph at lines 5--22
 
  []
 
-) [2] (./Project 1.toc)
+[2] (./Project 1.toc)
 \tf@toc=\write3
 \openout3 = `"Project 1.toc"'.
 
  [3] (./sections/Theory/Theory.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--11
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--27
+Underfull \hbox (badness 10000) in paragraph at lines 21--25
 
  []
 
-[4]
-Overfull \hbox (35.74654pt too wide) in paragraph at lines 35--35
+
+Overfull \hbox (35.74654pt too wide) in paragraph at lines 33--33
 [] 
  []
 
-<sections/Theory/EBMatrix.png, id=29, 483.8075pt x 220.825pt>
+[4] <sections/Theory/EBMatrix.png, id=29, 483.8075pt x 220.825pt>
 File: sections/Theory/EBMatrix.png Graphic file (type png)
 
 <use sections/Theory/EBMatrix.png>
-Package pdftex.def Info: sections/Theory/EBMatrix.png used on input line 60.
+Package pdftex.def Info: sections/Theory/EBMatrix.png used on input line 58.
 (pdftex.def)             Requested size: 276.00105pt x 125.97937pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 69--73
-
- []
-
-
-Overfull \hbox (50.24637pt too wide) in paragraph at lines 84--84
+) [5] [6 <./sections/Theory/EBMatrix.png>] (./sections/Proof1/Proof1.tex
+Overfull \hbox (50.24637pt too wide) in paragraph at lines 15--15
 [] 
  []
 
-[6 <./sections/Theory/EBMatrix.png>]
-Overfull \hbox (12.18033pt too wide) in paragraph at lines 125--125
-[] 
- []
+[7
 
-[7]
-Overfull \hbox (18.39035pt too wide) in paragraph at lines 131--131
-[] 
- []
-
-
-Overfull \hbox (49.26033pt too wide) in paragraph at lines 137--137
+]
+Overfull \hbox (12.18033pt too wide) in paragraph at lines 56--56
 [] 
  []
 
@@ -493,33 +474,38 @@ Package pdftex.def Info: sections/Exercise6/DiverGraph.png used on input line 8
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [22] (./sections/Conclusion/Conclusion.tex) [23 <./sections/Exercise6/DiverGr
-aph.png>] (./sections/Bibliograph/Bibliography.tex)
-(./sections/Appendix/Appendix.tex) [24] (./Project 1.aux) ) 
+) [22] (./sections/Conclusion/Conclusion.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--2
+
+ []
+
+) [23 <./sections/Exercise6/DiverGraph.png>]
+(./sections/Bibliograph/Bibliography.tex) (./sections/Appendix/Appendix.tex)
+[24] (./Project 1.aux) ) 
 Here is how much of TeX's memory you used:
- 6363 strings out of 493117
- 83107 string characters out of 6135434
+ 6369 strings out of 493117
+ 83219 string characters out of 6135434
  196229 words of memory out of 5000000
- 9692 multiletter control sequences out of 15000+600000
+ 9694 multiletter control sequences out of 15000+600000
  8581 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,45p,828b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2014/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on "Project 1.pdf" (25 pages, 328023 bytes).
+ 38i,12n,45p,802b,1676s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.
+pfb>
+Output written on "Project 1.pdf" (25 pages, 326581 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream

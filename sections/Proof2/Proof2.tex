@@ -34,7 +34,7 @@ Setter så inn koeffisientene vi ble gitt i hintet foran taylor-rekkene.
 \newpage
 
 
-Siden $f(x) = f'(x) = 0$, kan uttrykk med $f(x)$ og $f'(x)$, i Taylorrekkene fjernes. Vi setter inn disse Taylorrekkene i hintet gitt i oppgaven \ref{eq22a:hint}: 
+Siden $f(x) = f'(x) = 0$, kan uttrykk med $f(x)$ og $f'(x)$, i Taylorrekkene fjernes. Vi setter inn disse Taylorrekkene i hintet  \ref{eq22a:hint}: 
 \begin{multline}
 \\ \frac{h^2}{2}f''(x)-\frac{h^3}{6}f'''(x)+\frac{h^4}{24}f^{(4)}(x)-\frac{h^5}{120}f^{(5)}(x)+{O_1}(h^6) \\
 -\\
@@ -60,7 +60,7 @@ Vi endrer så dette uttrykket til å være lik $O(h^2)$, likt som i likning \ref
 \end{align}
 
 
-Vi endrer uttrykket vi kom fram til i \ref{eq21:proove} fra ${f^{iv}}(x)$ til ${f^{iv}}(x + h)$ og får: 
+Vi endrer uttrykket vi kom fram til i \ref{eq21a:prooved} fra ${f^{iv}}(x)$ til ${f^{iv}}(x + h)$ og får: 
 \begin{align}
 {f^{iv}}(x + h) = \frac{{f(x - h) - 4f(x) + 6f(x + h) - 4f(x + 2h) + f(x + 3h)}}{{{h^4}}} + O({h^2}) \label{eq22a:plussH} 
 \end{align}
@@ -88,13 +88,9 @@ Vi ser at det uttrykket er veldig likt uttrykket vi har i \ref{eq22a:oppg}. Vi e
 \begin{multline}
 \\ {f^{iv}}(x + h) - ({f^{iv}}(x + h) - O(h^2))  \\
 = \\
-{f^{iv}}(x + h) - (\frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4}+O(h^2)) \\ \nonumber
-\end{multline}
-
-
-Vi skriver til slutt om uttrykket:
-\begin{multline}
-\\ {f^{iv}}(x + h) - \frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4} = O(h^2) \label{eq22a:ferdig}
+{f^{iv}}(x + h) - (\frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4}+O(h^2)) \\ 
+= \\
+{f^{iv}}(x + h) - \frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4} = O(h^2) \label{eq22a:ferdig}
 \end{multline}
 Og dermed er oppgaven bevist. 
 

@@ -1,6 +1,9 @@
 \contentsline {section}{\numberline {1}Forord}{1}
 \contentsline {section}{\numberline {2}Sammendrag}{2}
 \contentsline {section}{\numberline {3}Teori og metode}{4}
+\contentsline {subsection}{\numberline {3.1}Generell teori}{4}
+\contentsline {subsection}{\numberline {3.2}Exercise 5.1.21}{7}
+\contentsline {subsection}{\numberline {3.3}Exercise 5.1.22a}{9}
 \contentsline {section}{\numberline {4}Resultater}{12}
 \contentsline {subsection}{\numberline {4.1}Oppgave 1}{12}
 \contentsline {subsection}{\numberline {4.2}Oppgave 2}{14}

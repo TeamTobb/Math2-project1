@@ -22,6 +22,7 @@ Skal bevise at:
 \begin{align}
 \label{ex4}
 y(x) &= \frac{f}{{24EI}}{x^2}({x^2} - 4Lx + 6{L^2}) - \frac{{pgL}}{{EI\pi }}\left( {\frac{{{L^3}}}{{{\pi ^3}}}\sin \frac{\pi }{L}x - \frac{{{x^3}}}{6} + \frac{L}{2}{x^2} - \frac{{{L^2}}}{{{\pi ^2}}}x} \right)\nonumber\\ 
+\intertext{Vi starter med å få EI på venstre side}
 EIy(x) &= \frac{f}{{24}}{x^2}({x^2} - 4Lx + 6{L^2}) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L^3}}}{{{\pi ^3}}}\sin \frac{\pi }{L}x - \frac{{{x^3}}}{6} + \frac{L}{2}{x^2} - \frac{{{L^2}}}{{{\pi ^2}}}x} \right)\nonumber\\
 %Ganger inn X^2 
 EIy(x) &= \frac{f}{{24}}({x^4} - 4Lx^3 + 6{L^2}{x^2}) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L^3}}}{{{\pi ^3}}}\sin \frac{\pi }{L}x - \frac{{{x^3}}}{6} + \frac{L}{2}{x^2} - \frac{{{L^2}}}{{{\pi ^2}}}x} \right)\nonumber\\
@@ -29,9 +30,9 @@ EIy(x) &= \frac{f}{{24}}({x^4} - 4Lx^3 + 6{L^2}{x^2}) - \frac{{pgL}}{{\pi }}\lef
 \intertext{Fjerdederiverer på hver side}
 EIy'(x) &= \frac{f}{{24}}(4{x^3} - 12Lx^2 + 12{L^2}x) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L^3}}}{{{\pi ^3}}}\cos (\frac{\pi }{L}x) \cdot \frac{\pi}{L} - \frac{{{3x^2}}}{6} + \frac{2L}{2}x - \frac{{{L^2}}}{{{\pi ^2}}}} \right)\nonumber\\
 %deriverer 2 gang
-EIy''(x) &= \frac{f}{{24}}(12{x^2} - 24Lx + 12{L^2}) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L^2}}}{{{\pi ^2}}}-\sin (\frac{\pi }{L}x) \cdot \frac{\pi}{L} - x + L } \right)\nonumber\\
+EIy''(x) &= \frac{f}{{24}}(12{x^2} - 24Lx + 12{L^2}) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L^2}}}{{{\pi ^2}}}(-\sin (\frac{\pi }{L}x) \cdot \frac{\pi}{L}) - x + L } \right)\nonumber\\
 %deriverer 3 gang
-EIy'''(x) &= \frac{f}{{24}}(24x - 24L) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L}}}{{{\pi}}}-\cos (\frac{\pi }{L}x) \cdot \frac{\pi}{L} - 1 } \right)\nonumber\\
+EIy'''(x) &= \frac{f}{{24}}(24x - 24L) - \frac{{pgL}}{{\pi }}\left( {\frac{{{L}}}{{{\pi}}}(-\cos (\frac{\pi }{L}x) \cdot \frac{\pi}{L} )- 1 } \right)\nonumber\\
 %deriverer 4 gang
 EIy''''(x) &= \frac{f}{{24}}(24) - \frac{{pgL}}{{\pi }}\left( {\sin (\frac{\pi }{L}x) \cdot \frac{\pi}{L}  } \right)\nonumber\\
 %clean

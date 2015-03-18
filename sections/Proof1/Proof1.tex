@@ -8,8 +8,8 @@ Følgende kommer et bevis på at den fjerdederiverte (likning 2.28) kan approksi
 
 Først setter vi opp taylor-rekker for punktene $x+2h$, $x-2h$, $x+h$, $x-h$: 
 \begin{align}
-    f(x+2h)&=f(x)+2hf'(x)+2h^2f''(x)+\frac{(4h)^3}{3!}f'''(x)+\frac{(2h)^4}{4!}f^{(4)}(x)+\frac{(2h)^5}{5!}f^{(5)}(x)+h^6\nonumber\\ 
-    f(x-2h)&=f(x)-2hf'(x)+2h^2f''(x)-\frac{(4h)^3}{3!}f'''(x)+\frac{(2h)^4}{4!}f^{(4)}(x)-\frac{(2h)^5}{5!}f^{(5)}(x)+h^6\nonumber\\
+    f(x+2h)&=f(x)+2hf'(x)+2h^2f''(x)+\frac{(2h)^3}{3!}f'''(x)+\frac{(2h)^4}{4!}f^{(4)}(x)+\frac{(2h)^5}{5!}f^{(5)}(x)+h^6\nonumber\\ 
+    f(x-2h)&=f(x)-2hf'(x)+2h^2f''(x)-\frac{(2h)^3}{3!}f'''(x)+\frac{(2h)^4}{4!}f^{(4)}(x)-\frac{(2h)^5}{5!}f^{(5)}(x)+h^6\nonumber\\
     f(x+h)&=f(x)+hf'(x)+\frac{h^2f''(x)}{2}+\frac{h^3}{3!}f'''(x)+\frac{h^4}{4!}f^{(4)}(x)+\frac{h^5}{5!}f^{(5)}(x)+h^6\nonumber\\
     f(x-h)&=f(x)-hf'(x)+\frac{h^2f''(x)}{2}-\frac{h^3}{3!}f'''(x)+\frac{h^4}{4!}f^{(4)}(x)-\frac{h^5}{5!}f^{(5)}(x)+h^6\label{Theory:taylorrekker}
 \end{align}
@@ -19,9 +19,9 @@ Deretter legger vi først sammen $f(x+2h)$ og $f(x-2h)$:
 \begin{multline}
     \\
     f(x+2h)+f(x-2h)= \\
-    f(x)+2hf'(x)+2h^2f''(x)+\frac{(4h)^3}{3!}f^3(x)+\frac{(2h)^4}{4!}f^{4}(x)+\frac{(2h)^5}{5!}f^{(5)}(x)+h^6 \\
+    f(x)+2hf'(x)+2h^2f''(x)+\frac{(2h)^3}{3!}f^3(x)+\frac{(2h)^4}{4!}f^{4}(x)+\frac{(2h)^5}{5!}f^{(5)}(x)+h^6 \\
     + \\
-  	f(x)-2hf'(x)+2h^2f''(x)-\frac{(4h)^3}{3!}f^3(x)+\frac{(2h)^4}{4!}f^{4}(x)-\frac{(2h)^5}{5!}f^{(5)}(x)+h^6\nonumber \\
+  	f(x)-2hf'(x)+2h^2f''(x)-\frac{(2h)^3}{3!}f^3(x)+\frac{(2h)^4}{4!}f^{4}(x)-\frac{(2h)^5}{5!}f^{(5)}(x)+h^6\nonumber \\
   	=\\
   	2f(x)+4h^2f''(x)+\frac{4}{3}h^4f^{(4)}(x)+h^6 \nonumber\\
 \end{multline}

@@ -81,17 +81,14 @@ Utrykket funnet i \ref{eq22a:deleH} settes inn i uttrykket vi fant i \ref{eq22a:
 
 Siden $f(x) = f'(x) = 0$, kan deler fra uttrykket fjernes. Vi får
 \begin{multline}
-\frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4}+O(h^2) \label{eq22a:nesten} \\
+f^{iv}(x+h)-O(h^2)=\frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4}+O(h^2) \label{eq22a:nesten}
 \end{multline}
 
-Vi ser at det uttrykket er veldig likt uttrykket vi har i \ref{eq22a:oppg}. Vi endrer på uttrykket ${f^{iv}}(x + h) - ({f^{iv}}(x + h) - O(h^2))$ som ble funnet it \ref{eq22a:nesten}. 
-\begin{multline}
-\\ {f^{iv}}(x + h) - ({f^{iv}}(x + h) - O(h^2))  \\
-= \\
-{f^{iv}}(x + h) - (\frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4}+O(h^2)) \\ 
-= \\
+
+Vi endrer på uttrykket som ble funnet i \ref{eq22a:nesten}. 
+\begin{align}
 {f^{iv}}(x + h) - \frac{16f(x+h)-9f(x+2h)+\frac{8}{3}f(x+3h)+\frac{1}{4}f(x+4h)}{h^4} = O(h^2) \label{eq22a:ferdig}
-\end{multline}
+\end{align}
 Og dermed er oppgaven bevist. 
 
 
